@@ -1,0 +1,19 @@
+const getInitials = (firstName,lastName) => { return firstName.charAt(0) + lastName.charAt(0); }
+console.log(getInitials("Roger ", "Waters"));
+
+
+
+function sayhi() {
+    return 'Hello';
+}
+
+function myname(user, func)
+{
+
+    const message = func();
+
+    console.log(`${message} ${user}`);
+    console.log(user+message);
+}
+
+myname("harsha", sayhi);
